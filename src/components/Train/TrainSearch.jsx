@@ -16,6 +16,7 @@ const TrainSearch = ({
 
   const [trainOption, setTrainOption] = useState([]);
   const [trainOption2, setTrainOption2] = useState([]);
+  const [arrival,setArrival]= useState();
   const fetchData = async () => {
     try {
       const response = await fetch(
